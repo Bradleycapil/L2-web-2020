@@ -1,0 +1,47 @@
+html {   
+    background-image: url('images/iJSDYE.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10%; 
+}
+
+h1 {
+    grid-column: 1/4;
+    text-align: center;
+    background-color: #c4c4c4;
+}
+
+.nav {
+    background-color: #c4c4c4;
+    margin: 20px 0px;
+}
+
+.nav a {
+    color: red;
+}
+
+.left, .center, .right {
+    background-color: #c4c4c4;
+    min-height: 300px;
+}
+
+.left, .left_ {
+    margin-left: 10%;
+}
+
+.right , .right_ {
+    margin-right: 10%;
+}
+
